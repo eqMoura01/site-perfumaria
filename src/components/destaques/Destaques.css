@@ -1,0 +1,14 @@
+.destaques{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 40px;
+    font-size: 8px;
+    /* gap: 40px; */
+    justify-content: space-around;
+    background-color: rgb(14, 79, 136);
+}
+
+.destaques-link{
+    text-decoration: none;
+    color: white;
+}

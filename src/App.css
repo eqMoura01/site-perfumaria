@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #192f5d;
+  height: fit-content;
+  width: 99.1vw;
+}
+
+.perfume-catalog {
+  /* background-color: yellowgreen; */
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 0.1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+  row-gap: 50px;
+  column-gap: 40px;
+  padding: 30px 20px;
+
+}

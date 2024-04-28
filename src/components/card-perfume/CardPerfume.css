@@ -1,0 +1,38 @@
+.card-perfume {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: fit-content;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;   
+}
+
+.card-perfume:hover{
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.483);
+}
+
+.perfume-img {
+    width: 100%;
+}
+
+.value-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.value-pix {
+    color: #d6b962;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.value{
+    font-weight: 600;
+}
