@@ -10,9 +10,10 @@
 .App {
   display: flex;
   flex-direction: column;
-  background-color: #192f5d;
+  background-color: white;
   height: fit-content;
   width: 99.1vw;
+  min-height: 100vh;
 }
 
 .perfume-catalog {
@@ -22,11 +23,15 @@
   grid-template-columns: repeat(4, 0.1fr);
   justify-content: center;
   justify-items: center;
-  align-items: center;
+  align-items: start;
   flex-wrap: wrap;
   /* gap: 30px; */
   row-gap: 50px;
   column-gap: 40px;
   padding: 30px 20px;
 
+}
+
+.header {
+  z-index: 100;
 }

@@ -15,11 +15,13 @@
 }
 
 .card-perfume:hover{
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.483);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.483);
+    cursor: pointer;
 }
 
 .perfume-img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 150px;
 }
 
 .value-container {

@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    box-shadow: 0 2px 50px rgba(251, 251, 251, 0.218);
+    /* box-shadow: 0 2px 50px rgba(251, 251, 251, 0.218); */
     font-size: 12px;
     
 }

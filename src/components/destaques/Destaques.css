@@ -6,6 +6,7 @@
     /* gap: 40px; */
     justify-content: space-around;
     background-color: rgb(14, 79, 136);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.50);
 }
 
 .destaques-link{

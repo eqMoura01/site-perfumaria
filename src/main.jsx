@@ -5,6 +5,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {document.documentElement.setAttribute('lang', 'pt-Br')}
     <App />
   </React.StrictMode>,
 )
